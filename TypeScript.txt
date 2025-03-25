@@ -86,3 +86,18 @@ Inference in TypeScript means that the TypeScript compiler can automatically det
 
 
 
+🚀 REST API Interview Questions 🚀
+
+REST APIs are the backbone of modern web and mobile applications, enabling seamless communication between services. If you're preparing for an interview or looking to enhance your REST API knowledge, here’s a list of essential REST API interview topics covering:
+
+✅ Core Concepts (RESTful principles, HTTP methods, statelessness)
+✅ API Design Best Practices (HATEOAS, versioning, pagination)
+✅ Request & Response Handling (@RequestBody, @ResponseEntity, status codes)
+✅ Error Handling & Validation (@ExceptionHandler, @Valid, global error handling)
+✅ Authentication & Security (OAuth2, JWT, API keys, HTTPS)
+✅ CORS & Rate Limiting (Cross-Origin Resource Sharing, API throttling)
+✅ Testing & Documentation (Postman, Swagger/OpenAPI, Spring REST Docs)
+✅ Performance Optimization (Caching, GZip compression, async processing)
+✅ Monitoring & Logging (Spring Boot Actuator, ELK Stack, Prometheus)
+
+💡 Want the full list of REST API interview questions? Comment "REST API" below, and I’ll share it with you! Let’s learn and grow together.
