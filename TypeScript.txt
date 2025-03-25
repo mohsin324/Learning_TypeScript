@@ -1,0 +1,88 @@
+npm i -g typescript
+tsc --version
+tsc --init
+tsc index.js
+
+7 primitive data types
+objects are fundamental data types > objects is the type of all non-primitive types
+
+string
+number
+Boolean
+bigint
+undefined
+null
+symbol
+
+// explicitly
+type MohsinType = {
+    name: { firstName: string, lastName: string},
+    age: number,
+    teaching: boolean,
+    dob: Date,
+    certification: string[]
+}
+===============================
+how to use private variales in constructor
+video 6
+OOP
+1. overriding
+2. property overriding
+3. getter/setter
+4. access modifiers => public, protected, private
+5. OOP Pilars
+6. optional parameters
+7. methods
+8. methods overriding
+9. overwritten constructors
+conclusion of OOP
+abstraction > organize data > irrelevant data hiding
+encapsulation > keep protected data
+inheritance > parent to child
+polymorphism > same method/function different instances mai different behavior karta > Traffic rules
+
+================================================================
+Functions
+> required parameters
+> optional parameters
+> default parameters
+
+==================================== Interfaces Vs Type
+boths are using for objects structure but Interfaces can be redeclared and merged but Types can't
+type Human = {
+    name: string;
+    age: number
+}
+let Imran: Human = {
+    name: "Imaran",
+    age: 25
+}
+interface Human2 {
+    name: string;
+    age: number
+}
+let Imran2: Human2 = {
+    name: "Imaran",
+    age: 25,
+    occupation: "Software Engineer"
+}
+
+interface Human2 {
+    occupation: string
+}
+
+=================
+Inference in TypeScript 🔍
+Inference in TypeScript means that the TypeScript compiler can automatically determine the type of a variable without explicitly specifying it.
+================= Union Types
+
+
+
+
+
+
+
+
+
+
+
