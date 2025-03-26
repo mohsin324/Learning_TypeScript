@@ -1,16 +1,38 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.person = void 0;
-exports.sayHello = sayHello;
+// export function sayHello(name: string): void{
+//     console.log(`Hello ${name}`)
+// }
+// export let person: string = 'Mohsin Munir';
+// export type Student = {
+//     name: string;
+//     age: number;
+// }
+// const newStudent: Student = {
+//     name: "Peter",
+//     age: 24
+// }
+// import { getColorName, Color } from "./Tuple";
+// getColorName(Color.BLUE);
+// console.log(getColorName(Color.BLUE));
+// export default newStudent;
+// typeof guards
+// type Student = {
+//     name: string;
+//     study: () => void;
+//     // method
+//     institute(name: string): string;
+// }
+// type User = {
+//     name: string;
+//     login: () => void;
+// }
+// type Person = Student | User;
+// const randomPerson = (): Person => {
+//     return Math.random() > .5 ?
+//         { name: "John", study: () => console.log('Studying...'), institute() { return 'Hello' } }
+//         : { name: "mary", login: () => console.log('Logging in') }
+// }
+// console.log(randomPerson())
 function sayHello(name) {
-    console.log("Hello ".concat(name));
+    return "Hello ".concat(name);
 }
-exports.person = 'Mohsin Munir';
-var newStudent = {
-    name: "Peter",
-    age: 24
-};
-var Tuple_1 = require("./Tuple");
-(0, Tuple_1.getColorName)(Tuple_1.Color.BLUE);
-console.log((0, Tuple_1.getColorName)(Tuple_1.Color.BLUE));
-exports.default = newStudent;
+console.log(sayHello('Mohisn Munir'));
