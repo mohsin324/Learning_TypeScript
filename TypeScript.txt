@@ -101,3 +101,13 @@ REST APIs are the backbone of modern web and mobile applications, enabling seaml
 ✅ Monitoring & Logging (Spring Boot Actuator, ELK Stack, Prometheus)
 
 💡 Want the full list of REST API interview questions? Comment "REST API" below, and I’ll share it with you! Let’s learn and grow together.
+================================================
+>	Number
+>	String
+> 	Boolean
+>	Null
+> 	Undefined
+>	Void
+>	Object
+>	Array
+> 	Tuples
